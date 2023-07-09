@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        * {
+            background-color: black;
+            color: #fff;
+        }
+
+        div {
+            color: #fff;
+
+        }
+
+        a {
+            margin-left: 1%;
+            font-size: 28px;
+            margin-right: 5%;
+            text-decoration: none;
+            text-align: center;
+            font-family: Lexend;
+        }
+
+        .four {
+            color: #FF7A00;
+        }
+
+        .nav {
+            margin-left: 20%;
+        }
+
+        .pod {
+            font-size: 80px;
+        }
+
+        .line {
+            border-top: 20px solid rgb(255, 255, 255);
+        }
+
+        li {
+            margin-left: 2%;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .box-1 {
+            width: 20%;
+            height: auto;
+            color: white;
+            margin-right: 3%;
+        }
+
+        .box-2 {
+            width: 80%;
+            margin-right: 3%;
+            height: auto;
+        }
+
+        .box-3 {
+            width: 20%;
+            height: auto;
+        }
+
+        .sideright {
+
+            width: auto;
+            height: auto;
+            padding-top: 50px;
+        }
+
+        .sideleft {
+
+            width: auto;
+            height: auto;
+            padding-top: 50px;
+        }
+
+        .box-10 {
+            display: flex;
+            flex-direction: row;
+            margin-left: 20%;
+        }
+
+        .paara {
+            font-size: large;
+        }
+    </style>
+</head>
+<div>
+    <div class="container-1">
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#" class="pod">Pod <span class="four">4</span></a>
+            <a href="#">Sign Up</a>
+            <a href="#"> Login</a>
+        </nav>
+        <hr>
+        <div>
+            <div class="container">
+                <div class="box-1">
+                    <div class="sideleft" >
+                        <%- include('../_sides1.ejs') %>
+                    </div>
+                    <div class="sideleft">
+                        <%- include('../_sides1.ejs') %>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <h1 style="text-align: center;">The Content</h1>
+                    <p class="paraa" style="text-align: justify;">
+                        Introduction:
+                        In this tutorial, we will discuss how we can apply a function to a single column of a csv in
+                        Spark. In the distributed computing system, Spark is used as an open-source system. Spark is
+                        used for data processing on a large scale and is very fast. It is used in various fields. But
+                        the most common use of Spark in a single CSV file column is that Spark applies a function of
+                        these files. Here we briefly elaborate on how to apply a function to a single column of a csv in
+                        Spark.
+
+                        Parameters of the Single Column of a CSV in Spark
+                        The parameters of the single column of a csv in Spark are -
+
+                        col means Column. This Column gives the expression for a new column.
+                        colName means str. str defines the string. It is the name of the new column.
+                        Syntax of the Single Column of a CSV in Spark
+                        The syntax of the single column of a csv in Spark is -
+
+                        Working of Applying a Function to a Single Column of a CSV in Spark
+                        The working of applying a function to a single column of a csv in Spark is that the rules or the
+                        transformation are fully user defined. It is applied to a column in the data set or frame. Users
+                        can easily set rules in this function. This rule is mainly used in spark sessions for
+                        registering and applying for the column needed. In the Spark, there are also some inbuilt
+                        functions. This inbuilt function can be. It can be used for columns over the Spark. This kind of
+                        inbuilt function is pre-loaded in memory. The result of the Spark is returned the transformed
+                        column value. The inbuilt function returns some stored values and returns through the column in
+                        the Spark of the data set or data model.
+
+                        <br>
+                        <b>
+                            Parameters of the Single Column of a CSV in Spark
+                            The parameters of the single column of a csv in Spark are 
+                        </b>
+
+                    <h1>Working of Applying a Function </h1>
+                    The working of applying a function to a single column of a csv in Spark is that the rules or the
+                    transformation are fully user defined. It is applied to a column in the data set or frame. Users
+                    can easily set rules in this function. This rule is mainly used in spark sessions for
+                    registering and applying for the column needed. In the Spark, there are also some inbuilt
+                    functions. This inbuilt function can be. It can be used for columns over the Spark. This kind of
+                    inbuilt function is pre-loaded in memory. The result of the Spark is returned the transformed
+                    column value. The inbuilt function returns some stored values and returns through the column in
+                    the Spark of the data set or data model.
+
+                    <h1>
+                        Parameters of the Single Column of a CSV in Spark
+                    </h1>
+
+                    In this tutorial, we will discuss how we can apply a function to a single column of a csv in
+                    Spark. In the distributed computing system, Spark is used as an open-source system. Spark is
+                    used for data processing on a large scale and is very fast. It is used in various fields. But
+                    the most common use of Spark in a single CSV file column is that Spark applies a function of
+                    these files. Here we briefly elaborate on how to apply a function to a single column of a csv in
+                    Spark.
+                    </p>
+                </div>
+                <diV class="box-3">
+                    <div class="sideright">
+                        <%- include('../_sides.ejs') %>
+                    </div>
+                    <div class="sideright">
+                        <%- include('../_sides.ejs') %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
